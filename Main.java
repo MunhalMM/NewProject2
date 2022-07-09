@@ -36,12 +36,10 @@ public class Main {
 
         Car car7 = new Car(car2);
 
-        Car.changeDateOfCars(car1,car4);
+        Car.changeDateOfCars(car2, car4);
 
         Car[] allInformationAboutCar = {car1, car2, car3, car4, car5, car6, car7};
         checkAllCars(allInformationAboutCar);
-
-
     }
 
     public static void checkAllCars(Car[] dataOfAllCar) {

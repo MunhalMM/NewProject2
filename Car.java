@@ -17,7 +17,6 @@ public class Car {
         this.yearOfIssue = car.yearOfIssue;
     }
 
-
     public String getName() {
 
         return name;
@@ -71,12 +70,12 @@ public class Car {
         int changeOfSpeed = carTwo.speed;
         carTwo.speed = carOne.speed;
         carOne.speed = changeOfSpeed;
-        int changeOfIssueYear= carTwo.yearOfIssue;
-        carTwo.yearOfIssue= carOne.yearOfIssue;
-        carOne.yearOfIssue=changeOfIssueYear;
-        String changeOfProducingCountry=carTwo.producingCountry;
-        carTwo.producingCountry= carOne.producingCountry;
-        carOne.producingCountry=changeOfProducingCountry;
+        int changeOfIssueYear = carTwo.yearOfIssue;
+        carTwo.yearOfIssue = carOne.yearOfIssue;
+        carOne.yearOfIssue = changeOfIssueYear;
+        String changeOfProducingCountry = carTwo.producingCountry;
+        carTwo.producingCountry = carOne.producingCountry;
+        carOne.producingCountry = changeOfProducingCountry;
     }
 }
 
